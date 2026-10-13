@@ -17,6 +17,7 @@ public class AsyncConfig {
         executor.setMaxPoolSize(4);
         executor.setQueueCapacity(20);
         executor.setThreadNamePrefix("xml-worker-");
+        executor.initialize();
 
         return executor;
     }
