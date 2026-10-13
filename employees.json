@@ -1,0 +1,25 @@
+{
+  "employees": {
+    "@xmlns": "http://www.example.com/employee",
+    "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "@version": "1.0",
+    "employee": {
+      "@uid": "010dcc83-5678-4d96-82af-f7d2036ebc53",
+      "name": "John Doe",
+      "nameLegal": "John Doe",
+      "department": "Engineering",
+      "country": "India",
+      "state": "Kerala",
+      "city": "Thiruvananthapuram",
+      "timeZone": "+05:30",
+      "company": "Example Company",
+      "employeeId": "EMP-001",
+      "dTimJoining": "2023-08-06T06:30:00.000Z",
+      "commonData": {
+        "dTimCreation": "2024-02-13T05:20:31.907Z",
+        "dTimLastChange": "2024-02-19T21:06:59.401Z",
+        "itemState": "active"
+      }
+    }
+  }
+}
